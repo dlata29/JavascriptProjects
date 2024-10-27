@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <div id="val"></div>
+
+    <script>
+      let final = "";
+      let divTxt = document.querySelector("#val");
+      const people = [
+        { name: "Alice Johnson", year: 1998 },
+        { name: "Bob Smith", year: 1996 },
+        { name: "Catherine Lee", year: 2015 },
+        { name: "David Kim", year: 2022 },
+        { name: "Eva Brown", year: 1995 },
+      ];
+
+      const comments = [
+        { text: "This is a great resource!", id: 101 },
+        { text: "I found this very helpful.", id: 102 },
+        { text: "Amazing content, thank you!", id: 103 },
+        { text: "This needs more examples.", id: 104 },
+        { text: "Love the simplicity.", id: 105 },
+      ];
+
+      const age = people.map((a) => 2024 - a.year);
+
+      console.table(age);
+
+      //some
+      final1 = people.some((val) => 2024 - val.year >= 29);
+
+      //find
+      final2 = comments.find((val) => val.id === 101);
+
+      //find index
+      final3 = comments.find((val) => val.id === 103);
+
+      //delete item
+
+      console.log(final);
+      console.table(final);
+      divTxt.innerHTML = `<p>hi ${final}</p>`;
+    </script>
+  </body>
+</html>
