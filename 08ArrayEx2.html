@@ -42,9 +42,12 @@
       final3 = comments.find((val) => val.id === 103);
 
       //delete item
+      const index = comments.findIndex((val) => val.id === 102);
+      comments.splice(index, 1);
 
-      console.log(final);
-      console.table(final);
+      // console.log(final);
+
+      console.table(comments);
       divTxt.innerHTML = `<p>hi ${final}</p>`;
     </script>
   </body>
