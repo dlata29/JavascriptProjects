@@ -2,8 +2,12 @@
 JavascriptProjects
 
 --------------------------------
-01 - Flex Panel Image Library 
+04 - Array Cardio Day 1
 
-02 - Fetch Country Data Using API
+05 - Flex Panel Image Library 
 
-03 - Canvas With draw and erase 
+06 - Fetch Country Data Using API
+
+07-Array Cardio Day 2
+
+08 - Canvas With draw and erase 
