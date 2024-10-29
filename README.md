@@ -11,3 +11,4 @@ JavascriptProjects
 07-Array Cardio Day 2
 
 08 - Canvas With draw and erase 
+12-Key Sequence-Detection.html
