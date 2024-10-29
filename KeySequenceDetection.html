@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Key Press</title>
+  </head>
+  <body>
+    <div class="main"></div>
+    <script>
+      const pressed = [];
+      const secretCode = "divya";
+      const dv = document.querySelector(".main");
+      window.addEventListener("keyup", (e) => {
+        dv.innerHTML = `${e.key}`;
+        pressed.push(e.key);
+
+        console.log(e.key);
+        console.log(pressed);
+      });
+    </script>
+  </body>
+</html>
