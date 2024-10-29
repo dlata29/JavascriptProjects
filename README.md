@@ -12,4 +12,4 @@ JavascriptProjects
 
 08 - Canvas With draw and erase 
 
-12-Key Sequence-Detection.html
+12 -Key Sequence-Detection.html
